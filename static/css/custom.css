@@ -1,0 +1,107 @@
+@media(min-width:1200px) {
+.logo-name{
+    font-size: 20px;
+    color: #fc7e0c;
+    font-weight: 700;
+    padding-left: 10px;
+}
+}
+@media(max-width:1200px) {
+.logo-name{
+    font-size: 16px;
+    color: #fc7e0c;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.thumbnail-classic-caption > [class*="thumbnail-classic-"]{
+    padding-left: 0%;
+}
+.tablex{
+    overflow:scroll;
+    height:800px;
+    width:350px;
+}
+.hm{
+    display:block !important;
+}
+.hmo{
+    display:none !important;
+}
+.hd{
+    display:none;
+}
+.box-contacts{
+    width:300px !important;
+}
+.section-padding {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+}
+.section-border{
+    border-bottom: 1px solid #80808057;
+}
+.section-padding{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.bg{
+    background-color: #00000091;
+    padding: 2% 0;
+}
+.color{
+    color: #fc7e0c;
+}
+.pd5{
+    padding: 5%;
+}
+.sanskar-title{
+    font-weight: 700;
+    color: #fc7e0c
+}
+.pd100{
+    padding-bottom: 100px
+}
+.width80{
+    width:100%;
+}
+.color1{
+    color: #fff;
+    font-weight: 600;
+}
+.width35{
+    width:40%;
+}
+.call{
+    font-size: 20px !important;
+    color: black;
+}
+.f20{
+    font-size: 20px !important;
+}
+.links li a{
+    color: #d9d7d7 !important;
+    text-transform: capitalize;
+}
+/* Blink */
+.blink{
+    width:auto;
+    height: 50px;
+    padding: 15px;	
+    text-align: center;
+    line-height: 20px;
+}
+.blink-span{
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    animation: blink 2s linear infinite;
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+.pd0{
+    padding: 0;
+}

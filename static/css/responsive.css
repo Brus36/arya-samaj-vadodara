@@ -1,0 +1,26 @@
+@media(min-width:1200px) {
+    .logo-name{
+        font-size: 20px;
+        color: #fc7e0c;
+        font-weight: 700;
+        padding-left: 10px;
+    }
+    }
+@media(max-width:1200px) {
+.logo-name{
+    font-size: 16px;
+    color: #fc7e0c;
+    font-weight: 700;
+    padding-left: 10px;
+}
+}
+@media(min-width:756px) {
+    .hide-desktop{
+       display: none;
+    }
+    }
+@media(max-width:756px) {
+    .hide-mobile{
+        display: none;
+     }
+}
